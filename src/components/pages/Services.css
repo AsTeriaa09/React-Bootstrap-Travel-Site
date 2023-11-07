@@ -1,0 +1,10 @@
+ .accordion{
+    margin-top: 180px;
+    border: 1px solid #242424;
+   
+}
+
+.accordion-body{
+    background-color: #242424;
+    color: #fff;
+}

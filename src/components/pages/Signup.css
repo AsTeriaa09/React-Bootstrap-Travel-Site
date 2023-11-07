@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background:url(/public/images/blur-travel-img.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.sign-up{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #242424;
+    color: #fff;
+    margin: auto;
+    /* display: flex; */
+    justify-content: center;
+    top: 170px;
+    border-radius: 8px;
+    padding: 45px 50px;
+}
+.sign-up h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.sign-up .inputt{
+    width: 400px;
+}
+.sign-up button{
+    background: #242424;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.sign-up button:hover{
+    background-color: #fff;
+    color: #242424;
+}
